@@ -316,11 +316,19 @@ p {
 }
 @media (max-width: 767px) {
   p {
-    font-size: 24px;
+    font-size: 10px;
+    text-align: left;
   }
 }
 @media (max-width: 479px) {
   p {
+    font-size: 9px;
+    text-align: left;
+  }
+}
+@media (min-width: 768px){
+  p{
     font-size: 20px;
+    text-align: left;
   }
 }
